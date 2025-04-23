@@ -8,3 +8,5 @@ features:
 
 This BMS is still under development and I haven't even tested it yet.
 
+<img src="images/kicad-3d-view.png" alt="the kicad 3d view of the 4s BMS board" width = 800>
+<img src="images/resistive-BMS-4s.pdf" alt="the schematic of the board" width = 800>
