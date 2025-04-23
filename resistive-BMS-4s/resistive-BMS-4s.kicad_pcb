@@ -823,6 +823,7 @@
 		(property "Reference" "J3"
 			(at 0 -2.38 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0e7cc542-86cd-40fe-ac6f-4151109a067f")
 			(effects
 				(font
@@ -1826,7 +1827,7 @@
 		(descr "TSSOP10: plastic thin shrink small outline package; 10 leads; body width 3 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot552-1_po.pdf)")
 		(tags "SSOP 0.5")
 		(property "Reference" "U2"
-			(at 0 3 0)
+			(at 0 2.5 0)
 			(layer "F.SilkS")
 			(uuid "0af2cb07-914c-42a8-9588-bcac3ea94612")
 			(effects
@@ -5465,7 +5466,7 @@
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -5 0 0)
+			(at 4.75 0 0)
 			(layer "F.SilkS")
 			(uuid "4187f62b-90e9-4282-960f-866bfce4e5c3")
 			(effects
@@ -8766,7 +8767,7 @@
 		(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 5 0 0)
+			(at -4.75 0 0)
 			(layer "F.SilkS")
 			(uuid "faf5e781-b010-4e69-b19e-dd8f82abf5c4")
 			(effects
@@ -9388,7 +9389,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 1.5 2 90)
+			(at 0 1.75 90)
 			(layer "F.SilkS")
 			(uuid "a92b4272-a8de-44ca-a8d2-92bef9ec9e3d")
 			(effects
@@ -13364,6 +13365,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.46 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "773470f9-b8d8-4e60-a0a9-b30e81e85df4")
 			(effects
 				(font
@@ -14024,7 +14026,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.85 90)
+			(at 0 1.75 90)
 			(layer "F.SilkS")
 			(uuid "b26bbfa6-4dd3-4c2d-832b-86c45330892a")
 			(effects
@@ -15412,6 +15414,97 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "dd06d270-96ac-4630-8c3a-5f4203ced692")
+	)
+	(gr_text "B-"
+		(at 77.25 85.5 270)
+		(layer "F.SilkS")
+		(uuid "1801111e-265c-4ad5-ac13-5109325c1c88")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B+"
+		(at 122.75 92.5 90)
+		(layer "F.SilkS")
+		(uuid "3ac1ba68-0069-4b9d-9c14-982b237aa8a5")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P-"
+		(at 77.25 109.75 270)
+		(layer "F.SilkS")
+		(uuid "576c03dc-5733-4f75-a73c-68f1a3ff0382")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+2"
+		(at 91 82 0)
+		(layer "F.SilkS")
+		(uuid "886b3c14-7441-4bc2-9566-c8fe8a0ef15d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+3"
+		(at 116.25 120.5 0)
+		(layer "F.SilkS")
+		(uuid "9e58a8f0-8685-4c4a-93f4-aa05f97672bc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "P+"
+		(at 122.75 112.5 90)
+		(layer "F.SilkS")
+		(uuid "a9c7347f-d034-4ffa-9b18-c661a9a5051e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+1"
+		(at 80 120.25 0)
+		(layer "F.SilkS")
+		(uuid "dc86bde1-53ea-4ff9-b34d-057a0d2b0484")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(via
 		(at 104 102)
